@@ -1,0 +1,8 @@
+2019-11-28 12:25:17 INFO  TestBase:117 - loading config.properties
+2019-11-28 12:25:17 INFO  TestBase:122 - loading or.properties
+2019-11-28 12:25:17 INFO  TestBase:127 - loading homepage.properties
+2019-11-28 12:25:21 INFO  WaitHelper:33 - 20
+2019-11-28 12:25:21 INFO  WaitHelper:38 - 240
+2019-11-28 12:25:22 INFO  Excel_reader:19 - Creating excel object:-D:\Project\seleniumHybridFramework-master/src/main/java/com/hybridFramework/data/TestData.xlsx
+2019-11-28 12:25:24 INFO  Excel_reader:19 - Creating excel object:-D:\Project\seleniumHybridFramework-master/src/main/java/com/hybridFramework/data/TestData.xlsx
+2019-11-28 12:25:24 INFO  LoginTest:18 - com.hybridFramework.loginPage.LoginTest started
