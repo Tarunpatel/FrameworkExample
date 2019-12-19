@@ -43,9 +43,9 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		waitHelper = new WaitHelper(driver);
+		/*waitHelper = new WaitHelper(driver);
 		TestBase testBase = new TestBase();
-		waitHelper.waitForElement(driver, womenMenu,new Config(TestBase.OR).getExplicitWait());
+		waitHelper.waitForElement(driver, womenMenu,new Config(TestBase.OR).getExplicitWait());*/
 	}
 	
 	public void mouseOver(String data){

@@ -25,7 +25,7 @@ public class VerifyProductCounts extends TestBase{
 		log.info(VerifyProductCounts.class.getName()+" started");	
 		
 		Config config = new Config(OR);
-		driver.get(config.getWebsite());
+		//driver.get(config.getWebsite());
 		
 		homePage = new HomePage(driver);
 		ProductCategoryPage pCate = homePage.clickOnMenu(homePage.womenMenu);

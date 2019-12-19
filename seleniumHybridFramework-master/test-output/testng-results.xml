@@ -1,17 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18057" started-at="2019-07-23T11:08:06Z" finished-at="2019-07-23T11:08:24Z">
+  <suite name="Suite" duration-ms="16051" started-at="2019-12-10T11:34:13Z" finished-at="2019-12-10T11:34:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18057" started-at="2019-07-23T11:08:06Z" finished-at="2019-07-23T11:08:24Z">
+    <test name="Test" duration-ms="16051" started-at="2019-12-10T11:34:13Z" finished-at="2019-12-10T11:34:29Z">
+      <class name="com.hybridFramework.productDetailsPage.VerifyProductCounts">
+        <test-method status="FAIL" signature="testVerifyProductCounts()[pri:0, instance:com.hybridFramework.productDetailsPage.VerifyProductCounts@35b74c5c]" name="testVerifyProductCounts" duration-ms="2" started-at="2019-12-10T17:04:29Z" finished-at="2019-12-10T17:04:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.hybridFramework.helper.Wait.WaitHelper.<init>(WaitHelper.java:29)
+	at com.hybridFramework.PageObject.HomePage.<init>(HomePage.java:46)
+	at com.hybridFramework.productDetailsPage.VerifyProductCounts.testVerifyProductCounts(VerifyProductCounts.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductCounts -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.productDetailsPage.VerifyProductCounts@35b74c5c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-12-10T17:04:29Z" finished-at="2019-12-10T17:04:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.productDetailsPage.VerifyProductCounts.testVerifyProductCounts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.productDetailsPage.VerifyProductCounts@35b74c5c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-12-10T17:04:29Z" finished-at="2019-12-10T17:04:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyProductCounts status=FAILURE method=VerifyProductCounts.testVerifyProductCounts()[pri:0, instance:com.hybridFramework.productDetailsPage.VerifyProductCounts@35b74c5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.hybridFramework.testBase.TestBase.getScreenShot(TestBase.java:135)
+	at com.hybridFramework.testBase.TestBase.getresult(TestBase.java:154)
+	at com.hybridFramework.testBase.TestBase.afterMethod(TestBase.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.hybridFramework.productDetailsPage.VerifyProductCounts@35b74c5c]" name="endTest" is-config="true" duration-ms="35" started-at="2019-12-10T17:04:29Z" finished-at="2019-12-10T17:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.hybridFramework.productDetailsPage.VerifyProductCounts -->
       <class name="com.hybridFramework.loginPage.LoginTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@275710fc]" name="launchBrowser" is-config="true" duration-ms="3577" started-at="2019-07-23T16:38:06Z" finished-at="2019-07-23T16:38:10Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@3576ddc2]" name="launchBrowser" is-config="true" duration-ms="3690" started-at="2019-12-10T17:04:13Z" finished-at="2019-12-10T17:04:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.loginPage.LoginTest@275710fc]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2019-07-23T16:38:10Z" finished-at="2019-07-23T16:38:10Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.loginPage.LoginTest@3576ddc2]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2019-12-10T17:04:17Z" finished-at="2019-12-10T17:04:17Z">
           <params>
             <param index="0">
               <value>
@@ -22,26 +124,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testLoginToApplication()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@275710fc]" name="testLoginToApplication" duration-ms="14247" started-at="2019-07-23T16:38:10Z" finished-at="2019-07-23T16:38:24Z">
+        <test-method status="PASS" signature="testLoginToApplication()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@3576ddc2]" name="testLoginToApplication" duration-ms="12004" started-at="2019-12-10T17:04:17Z" finished-at="2019-12-10T17:04:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginToApplication -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@275710fc]" name="endTest" is-config="true" duration-ms="211" started-at="2019-07-23T16:38:24Z" finished-at="2019-07-23T16:38:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.loginPage.LoginTest@275710fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-23T16:38:24Z" finished-at="2019-07-23T16:38:24Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.loginPage.LoginTest@3576ddc2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-10T17:04:29Z" finished-at="2019-12-10T17:04:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginToApplication status=SUCCESS method=LoginTest.testLoginToApplication()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@275710fc] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginToApplication status=SUCCESS method=LoginTest.testLoginToApplication()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@3576ddc2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.hybridFramework.loginPage.LoginTest@3576ddc2]" name="endTest" is-config="true" duration-ms="281" started-at="2019-12-10T17:04:29Z" finished-at="2019-12-10T17:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
       </class> <!-- com.hybridFramework.loginPage.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
